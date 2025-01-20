@@ -1,9 +1,9 @@
 import { DevicesPage } from '../pages/page';
 import { getDevices } from '../support/api';
 
-const UI_URL = 'http://localhost:3001';
+import config from '../testcafe.config.js';
 
-fixture('Device Management Tests').page(UI_URL);
+fixture('Device Management Tests').page(config.baseUrl);
 
 const devicesPage = new DevicesPage();
 

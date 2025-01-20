@@ -1,7 +1,7 @@
 {
   "name": "ninja-testcafe",
   "version": "1.0.0",
-  "main": "test.js",
+  "type": "module",
   "scripts": {
     "test": "testcafe chrome tests/test.js",
     "format": "prettier --write ."
